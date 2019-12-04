@@ -1,15 +1,31 @@
 {
   "workbench.colorCustomizations": {
+    "activityBar.background": "#0D0D0D",
+    "activityBar.foreground": "#00968B",
+    "activityBarBadge.background": "#BF1736",
+    "activityBarBadge.foreground": "#ffffff",
+    "badge.background": "#f52e62",
+    "badge.foreground": "#ffffff",
+    "dropdown.background": "#372b2f",
+    "editor.background": "#0D0D0D",
+    "editor.selectionBackground": "#f52e6255",
+    "editor.lineHighlightBackground": "#46363b",
+    "tab.inactiveBackground": "#011526",
+    "terminal.background": "#CBDBD7",
+    "terminal.foreground": "#0D0D0D",
     "titleBar.activeForeground": "#ffffff",
-    "titleBar.activeBackground": "#4fff2c8e",
+    "titleBar.activeBackground": "#00968B",
     "titleBar.inactiveBackground": "#4fff2c8e",
     "titleBar.inactiveForeground": "#ffffff",
-    "sideBar.background": "#0D0D0D",
+    "panelTitle.activeBorder": "#f52e62",
     "panel.background": "#010D26",
-    "editor.background": "#0D0D0D",
-    "activityBarBadge.background": "#BF1736",
+    "sideBarSectionHeader.background": "#00968B",
+    "sideBarSectionHeader.foreground": "#ffffff",
+    "sideBar.background": "#0D0D0D",
+    "sideBar.foreground": "#edebe6",
     "gitDecoration.untrackedResourceForeground": "#92BF30",
-    "statusBar.background": "#0D0D0D"
+    "statusBar.background": "#0D0D0D",
+    "statusBar.foreground": "#ffffff"
   },
   "window.title": "${rootPath}${separator}${appName}",
   "window.zoomLevel": 0,
@@ -22,7 +38,11 @@
   "editor.fontSize": 14,
   "files.exclude": {
     "**/.git": true,
-    "**/.DS_Store": true
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/.next": true
   },
   "terminal.integrated.rendererType": "dom"
 }
