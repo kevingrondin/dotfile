@@ -22,11 +22,7 @@
   "editor.fontSize": 14,
   "files.exclude": {
     "**/.git": true,
-    "**/.svn": true,
-    "**/.hg": true,
-    "**/CVS": true,
-    "**/.DS_Store": true,
-    "**/.next": true
+    "**/.DS_Store": true
   },
   "terminal.integrated.rendererType": "dom"
 }
