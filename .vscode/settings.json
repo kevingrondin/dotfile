@@ -1,0 +1,32 @@
+{
+  "workbench.colorCustomizations": {
+    "titleBar.activeForeground": "#ffffff",
+    "titleBar.activeBackground": "#4fff2c8e",
+    "titleBar.inactiveBackground": "#4fff2c8e",
+    "titleBar.inactiveForeground": "#ffffff",
+    "sideBar.background": "#0D0D0D",
+    "panel.background": "#010D26",
+    "editor.background": "#0D0D0D",
+    "activityBarBadge.background": "#BF1736",
+    "gitDecoration.untrackedResourceForeground": "#92BF30",
+    "statusBar.background": "#0D0D0D"
+  },
+  "window.title": "${rootPath}${separator}${appName}",
+  "window.zoomLevel": 0,
+  "editor.trimAutoWhitespace": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.lineNumbers": "on",
+  "editor.mouseWheelZoom": true,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/.next": true
+  },
+  "terminal.integrated.rendererType": "dom"
+}
